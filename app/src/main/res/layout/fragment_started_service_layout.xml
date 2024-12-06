@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#20f8">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Started Service"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ss_run_long_op1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Run Long Op1"/>
+
+            <Button
+                android:id="@+id/ss_run_long_op2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Run Long Op2"/>
+
+            <Button
+                android:id="@+id/ss_run_long_op3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Run Long Op3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

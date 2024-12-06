@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#2f88">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lifecycle Binded Service"/>
+
+        <TextView
+            android:id="@+id/service_state_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bs_bind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bind"/>
+
+            <Button
+                android:id="@+id/bs_unbind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unbind"/>
+
+            <Button
+                android:id="@+id/bs_run_long_op1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Run Long Op 1"/>
+
+            <Button
+                android:id="@+id/bs_run_long_op2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Run Long Op 2"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
